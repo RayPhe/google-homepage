@@ -5,6 +5,12 @@ html{
 
 /*navbar section*/
 
+body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 #navbar{
   display: grid;
   position: relative;
@@ -12,7 +18,7 @@ html{
   grid-template-rows: 50px;
   grid-template-areas: 
     "about store . gmail images sign-in";
-  margin: 0 20px;
+  margin: 0 15px 0 15px;
 }
 a:hover{
   text-decoration: underline;
@@ -133,6 +139,9 @@ a{
   display: grid;
   grid-template-columns: 100px 100px 150px 1330px 70px 70px 70px;
   grid-template-rows: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   grid-template-areas:
   "advertising business how-search-works . privacy terms settings"
 }
